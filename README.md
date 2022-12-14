@@ -270,14 +270,14 @@ Jurjen Helmus - J.R.Helmus@hva.nl [corresponding contributor]
 
 Jerome Mies - J.J.Mies@hva.nl 
 
-Igna Vermeulen - ignavermeulen@hotmail.com
+Igna Vermeulen - 
 
-Seyla Wachlin - seylawachlin@gmail.com
+Seyla Wachlin - 
 
-Vincent Gorka - vcgorka@me.com
+Vincent Gorka - 
 
-Alexander Easton - Easton.ae@gmail.com
+Alexander Easton - 
 
 Questions and bug reports
 --
-Any questions on the usage of the model or bug reports can be send to any of the contributors.
+Any questions on the usage of the model or bug reports can be send corresponding contributor. 
