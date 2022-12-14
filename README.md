@@ -3,6 +3,10 @@
 
 Synopsis
 --
+Deployment and management of environmental infrastructures, such as charging infrastructure for Electric Vehicles (EV), is a challenging task. For policy makers, it is particularly difficult to estimate the capacity of current deployed public charging infrastructure for a given EV user population. While data analysis of charging data has shown added value for monitoring EV systems, it is not valid to linearly extrapolate charging infrastructure performance when increasing population size.
+
+We developed a data-driven agent-based model that can explore future scenarios to identify non-trivial dynamics that may be caused by EV user interaction, such as competition or collaboration, and that may affect performance metrics. We validated the model by comparing EV user activity patterns in time and space.
+
 This github contains a python implementation of an agent-based model simulating the charging behavior of Electric Vehicle (EV) users in the Netherlands.
 
 First usage
@@ -261,6 +265,8 @@ Built With
 
 Contributors
 --
+Jurjen Helmus - J.R.Helmus@hva.nl [corresponding contributor]
+
 Igna Vermeulen - ignavermeulen@hotmail.com
 
 Seyla Wachlin - seylawachlin@gmail.com
