@@ -29,7 +29,7 @@ The following links contain several instruction videos that guide new users thro
 3. Simulation of free-floating vehicle charging behaviour at public charging points - VC Gorka, JR Helmus, MH Lees, VC Gorka, JR Helmus, MH Lees - International Electric Vehicle Symposium 32
 4. Simulation of Future Electric Vehicle Charging behavior—Effects of transition from PHEV to FEV - I Vermeulen, JR Helmus, M Lees, R van den Hoed - 
 World Electric Vehicle Journal 10 (2), 42
-5. _upcmoing research_ 
+5. _upcmoing research_ A data-driven optimization model for a public electric vehicle charging infrastructure layout - J.J. Mies, J.R. Helmus, M.H.Lees - Complexity
 6. _upcoming research_
 
 
@@ -69,7 +69,7 @@ OR following the next steps:
 1. Turn the ```general_preprocess``` parameter in ```data/input_parameters/parameters.json``` to true.
 2. Run ```simulation.Simulation("data/input_parameters/parameters.json")``` to do the general preprocessing (which creates ```data/sessions/ChargeSessions_general.pkl```).
 3. Put ```general_preprocess``` on false again (revert step 1).
->>>>>>> vincent
+
 
 - Optionally you could run the following lines to repeat the simulation, however, you should make sure the number_of_agents should be > 0
 
@@ -89,7 +89,7 @@ import environment
 import agent
 import random
 
-<<<<<<< HEAD
+
 sim = simulation.Simulation("data/input_parameters/parameters.json", overwrite_parameters = {'agent_initialization': 'create_and_use', 'filepath_agent_database': 'agent_database/all_agents/', 'number_of_agents': 10})
 sim.repeat_simulation()
 a = sim.agents[random.sample(sim.agents.keys(), 1)[0]]
@@ -267,6 +267,8 @@ Built With
 Contributors
 --
 Jurjen Helmus - J.R.Helmus@hva.nl [corresponding contributor]
+
+Jerome Mies - J.J.Mies@hva.nl 
 
 Igna Vermeulen - ignavermeulen@hotmail.com
 
