@@ -10,12 +10,28 @@ We developed a data-driven agent-based model that can explore future scenarios t
 This github contains a python implementation of an agent-based model simulating the charging behavior of Electric Vehicle (EV) users in the Netherlands. This repository contains the base model and several extensions. 
 
 **Prerequisites**
+
 SEVA is a data-driven agent basede model in which the behavior of agents is derived from charging transaction data. The model requires charging data to be trained. This repository contains a subset of the agents that are present in the simulations of [1]. Due to privacy and sensitivity issues, no charging data was allowed to be shared in this repositoty. 
 
-To run the model on new charging data, please refer to the technical documentation found in [2]. This document contains information on data requiremnts.
+To run the model on new charging data, please refer to the technical documentation found in [2]. This document contains information on data requirements.
 
 **Instruction videos**
+
 The following links contain several instruction videos that guide new users through the installation process and the use of the model.
+1. link to 
+2. link to
+3. link to 
+
+
+**SEVA in scientific contributions**
+1. A validated agent-based model for stress testing charging infrastructure utilization - JR Helmus, MH Lees, R van den Hoed - Transportation Research Part A: Policy and Practice 159, 237-262
+2. SEVA: A data driven model of electric vehicle charging behavior - JR Helmus, S Wachlin, I Vermeulen, MH Lees - arXiv preprint arXiv:1904.08748
+3. Simulation of free-floating vehicle charging behaviour at public charging points - VC Gorka, JR Helmus, MH Lees, VC Gorka, JR Helmus, MH Lees - International Electric Vehicle Symposium 32
+4. Simulation of Future Electric Vehicle Charging behavior—Effects of transition from PHEV to FEV - I Vermeulen, JR Helmus, M Lees, R van den Hoed - 
+World Electric Vehicle Journal 10 (2), 42
+5. _upcmoing research_ 
+6. _upcoming research_
+
 
 
 **Recommended follow up steps:**
