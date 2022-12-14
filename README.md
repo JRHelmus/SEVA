@@ -5,22 +5,18 @@ Synopsis
 --
 Deployment and management of environmental infrastructures, such as charging infrastructure for Electric Vehicles (EV), is a challenging task. For policy makers, it is particularly difficult to estimate the capacity of current deployed public charging infrastructure for a given EV user population. While data analysis of charging data has shown added value for monitoring EV systems, it is not valid to linearly extrapolate charging infrastructure performance when increasing population size.
 
-We developed a data-driven agent-based model that can explore future scenarios to identify non-trivial dynamics that may be caused by EV user interaction, such as competition or collaboration, and that may affect performance metrics. We validated the model by comparing EV user activity patterns in time and space.
+We developed a data-driven agent-based model that can explore future scenarios to identify non-trivial dynamics that may be caused by EV user interaction, such as competition or collaboration, and that may affect performance metrics. We validated the model by comparing EV user activity patterns in time and space. The model has been used in several scientific contributinos (see below). 
 
-This github contains a python implementation of an agent-based model simulating the charging behavior of Electric Vehicle (EV) users in the Netherlands.
+This github contains a python implementation of an agent-based model simulating the charging behavior of Electric Vehicle (EV) users in the Netherlands. This repository contains the base model and several extensions. 
 
-First usage
+**Prerequisites**
+SEVA is a data-driven agent basede model in which the behavior of agents is derived from charging transaction data. The model requires charging data to be trained. This repository contains a subset of the agents that are present in the simulations of [1]. Due to privacy and sensitivity issues, no charging data was allowed to be shared in this repositoty. 
 
-**Required first steps:**
-<<<<<<< HEAD
-1. Log into the server.
-2. Type in terminal: git clone http://gitlab.computationalscience.nl/ido-laad/modeling_charging_behavior.git.
-3. Fill in your username and password for gitlab.
-4. Go to the modeling_charging_behavior directory.
-5. (optional) To not have to fill in username and password type: git config --global credential.helper 'cache --timeout=3600000000' (this will ask you for your gitlab username and password and it will remember it for 3600000000 seconds.
-6. Type git checkout -b your-new-branch-name SEVA_v1 to create your own branch to work on using SEVA version 1.
-7. Commit and push: git commit -am "your commit message" and git push origin your-new-branch-name.
-8. Put the file with all charge transactions in the directory data/sessions/ and name it ChargesSessions_raw.pkl.
+To run the model on new charging data, please refer to the technical documentation found in [2]. This document contains information on data requiremnts.
+
+**Instruction videos**
+The following links contain several instruction videos that guide new users through the installation process and the use of the model.
+
 
 **Recommended follow up steps:**
 1. Set all parameters in the ```data/input_parameters/parameters.json``` to the preferred values (or leave them on the default values).
@@ -29,23 +25,12 @@ First usage
 4. Copy the code from the basic run example version 2 of the simulation (see below) and run this to check if everything is working.
 =======
 
--  Log into the server.
-- Type in terminal: git clone http://gitlab.computationalscience.nl/ido-laad/modeling_charging_behavior.git.
-- Fill in your username and password for gitlab.
 - Go to the modeling_charging_behavior directory.
 - (optional) To not have to fill in username and password type: git config --global credential.helper 'cache --timeout=36000'
 -  Type git checkout -b your-new-branch-name v1.2 to create your own branch to work on using the base model version 1.2.-
 - Commit and push: git commit -am "your commit message" and git push origin your-new-branch-name.
 - Put the file with all charge transactions in the directory data/sessions/ and name it ChargesSessions_raw.pkl.
 
-**Download data via R studio**
-
-- Sign in to [RStudio](http://145.92.162.230:8787). Use your Jupyter server credentials.
-- To be able to get data from the Data Warehouse server (DWH), use the [CHIEF_DWH.R](https://gitlab.computationalscience.nl/ido-laad/modeling_charging_behavior/blob/vincent/support_files/CHIEF_DWH.R). This file includes the methods needed in R.
-- To use the data in de SEVA model, use [EXPORT_DATA.R](https://gitlab.computationalscience.nl/ido-laad/modeling_charging_behavior/blob/vincent/support_files/EXPORT_DATA.R) to get a folder with 4 csv data files.
-- Copy and move the file [pre-processing.py](https://gitlab.computationalscience.nl/ido-laad/modeling_charging_behavior/blob/vincent/support_files/pre-processing.py) into the specific R Data/*timestamp* and run it to create the needed ChargeSessions_raw.pkl file.
-- Put the resulting file with all charge transactions in the directory data/sessions/.
-- Continue with Recommended code to create ChargeSessions_general.pkl. 
 
 ``` python
 import simulation
