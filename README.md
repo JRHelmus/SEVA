@@ -29,7 +29,7 @@ The following links contain several instruction videos that guide new users thro
 3. Simulation of free-floating vehicle charging behaviour at public charging points - VC Gorka, JR Helmus, MH Lees, VC Gorka, JR Helmus, MH Lees - International Electric Vehicle Symposium 32
 4. Simulation of Future Electric Vehicle Charging behavior—Effects of transition from PHEV to FEV - I Vermeulen, JR Helmus, M Lees, R van den Hoed - 
 World Electric Vehicle Journal 10 (2), 42
-5. _upcmoing research_ A data-driven optimization model for a public electric vehicle charging infrastructure layout - J.J. Mies, J.R. Helmus, M.H.Lees - Complexity
+5. _upcoming research_ A data-driven optimization model for a public electric vehicle charging infrastructure layout - J.J. Mies, J.R. Helmus, M.H.Lees - Complexity
 6. _upcoming research_
 
 
