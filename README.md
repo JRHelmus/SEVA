@@ -18,9 +18,8 @@ To run the model on new charging data, please refer to the technical documentati
 **Instruction videos**
 
 The following links contain several instruction videos that guide new users through the installation process and the use of the model.
-1. link to
-2. link to 
-
+1. Part 1 - installation and setup of files - https://youtu.be/NmzRw9zjO2A
+2. Part 2 - recommended steps after installation https://youtu.be/ylngX_ZBnBU 
 
 0. link to https://youtu.be/i2SYhbbDc-Y - this is video for researchers and students within the Uva / AUAS 
 
